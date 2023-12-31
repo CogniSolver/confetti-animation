@@ -26,7 +26,7 @@ Feel free to integrate this project into your own web applications or use it as 
 
 ## Live Demo:
 
-![Confetti Animation](https://cognisolver.github.io/confetti-animation/)
+[Confetti Animation](https://cognisolver.github.io/confetti-animation/)
 
 ## Contribution:
 
