@@ -24,9 +24,9 @@ Feel free to integrate this project into your own web applications or use it as 
 - CSS
 - JavaScript
 
-## Preview:
+## Live Demo:
 
-![Confetti Animation](./preview.gif)
+![Confetti Animation](https://cognisolver.github.io/confetti-animation/)
 
 ## Contribution:
 
