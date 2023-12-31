@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    user-select: none;
+    animation: bg-change 20s linear infinite;
+}
+
+.confetti{
+    width: 95%;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+    animation: bg-change 20s linear infinite reverse;
+}
+
+.message{
+    position: absolute;
+    font-size: 80px;
+    font-family: cursive;
+    font-weight: bold;
+    color: #fff;
+    animation: text-grow 1.5s linear infinite;
+}
+
+@keyframes text-grow {
+    0%{ scale: 0.8; -webkit-text-stroke: 5px rgb(255, 0, 0); }
+    50%{ scale: 1.4; -webkit-text-stroke: 6px rgb(0, 255, 0); }
+    100%{ scale: 0.7; -webkit-text-stroke: 7px rgb(255, 0, 255); }
+}
+
+@keyframes bg-change {
+    0% { background-color: #3498db; } /* Blue */
+    9% { background-color: #2ecc71; } /* Green */
+    18% { background-color: #e74c3c; } /* Red */
+    27% { background-color: #f39c12; } /* Orange */
+    36% { background-color: #9b59b6; } /* Purple */
+    45% { background-color: #1abc9c; } /* Turquoise */
+    54% { background-color: #e67e22; } /* Pumpkin */
+    63% { background-color: #34495e; } /* Dark Blue-Gray */
+    72% { background-color: #27ae60; } /* Nephritis Green */
+    81% { background-color: #d35400; } /* Rusty Orange */
+    90% { background-color: #2980b9; } /* Dark Cerulean Blue */
+    100% { background-color: #3498db; } /* Revert to Blue */
+}
